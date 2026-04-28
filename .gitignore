@@ -1,0 +1,36 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & Embeddings (Giữ lại cấu trúc thư mục nhưng bỏ qua file)
+data/
+!data/.gitkeep
+*.npy
+*.pkl
+*.jsonl
+*.csv
+*.tsv
+
+# Models & Checkpoints
+checkpoints/
+experiments/models/*/*.safetensors
+experiments/models/*/*.pth
+experiments/models/*/*.bin
+experiments/models/*/optimizer.pt
+experiments/runs/
+
+# Logs & Drafts
+logs/
+*.log
+*.txt
+# (Ngoại trừ file requirements.txt nếu có)
+!requirements.txt
+
+# Archive
+archive_old_code/
+
+# Documents & OS files
+document/
+.DS_Store
