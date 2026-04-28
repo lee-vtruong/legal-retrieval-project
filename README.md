@@ -87,19 +87,9 @@ To keep this repository lightweight, large files are not included.
 
 ### 📊 Data
 
-Download ALQAC 2025 dataset and place at:
-
-```bash
-data/raw/ALQAC_2025/
-```
+ALQAC 2025 dataset
 
 ### 🧠 Model Checkpoints
-
-Download from:
-
-```
-[Your Google Drive / HuggingFace link]
-```
 
 Place at:
 
